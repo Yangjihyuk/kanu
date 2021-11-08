@@ -267,6 +267,7 @@ header .navigation li a:hover{
 .expert .content .box{
     width: 250px;
     margin: 15px;
+    text-align: center;
 }
 .expert .content .box .imgBx{
     position: relative;
