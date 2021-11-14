@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- style -->
-    <link rel="stylesheet" href="assets/css/style.css">
     <!-- swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-    
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
@@ -25,83 +26,70 @@
         </ul>
     </header>
     <section class="banner" id="banner">
-        <!-- Swiper -->
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide sec01-bg01">
-                    <div class="main-title txt01">
-                       <h1>BETTER TASTE</h1>
-                    </div>
-                    
-                    <div class="content">
-                        <h2>Maxim Kanu Signature</h2>
-                        <p>케냐, 브라질 원두의 부드러운 풍미</p>
-                       
-                    </div>
-                </div>
-
-                <div class="swiper-slide sec01-bg02">
-                    <div class="main-title txt02">
-                        <h1>FOR SMILE</h1>
-                    </div>
-                    <div class="content">
+        <div class="slide swiper-pc">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide sec01-bg01">
                         
-                        <h2>Kanu Latte series</h2>
-                        <p>맥심 카누가 선사하는 풍부하고 깔끔한 라떼</p>
-                       
+                        <div class="content">
+                            <h2>Maxim Kanu Signature</h2>
+                            <p>케냐, 브라질 원두의 부드러운 풍미</p>
+                           
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide sec01-bg02">
+                        
+                        <div class="content">
+                            
+                            <h2>Kanu Latte series</h2>
+                            <p>맥심 카누가 선사하는 풍부하고 깔끔한 라떼</p>
+                           
+                        </div>
+                        
+                    </div>
+    
+                    <div class="swiper-slide sec01-bg03">
+                        
+                        <div class="content">
+                            <h2>Miniest Cafe</h2>
+                            <p>달콤한 아메리카노가 있는 곳</p>
+                           
+                        </div>
+                    
                     </div>
                     
+                    
                 </div>
-
-                <div class="swiper-slide sec01-bg03">
-                    <div class="main-title txt03">
-                        <h1>affordable</h2>
-                    </div>
-                    <div class="content">
-                        <h2>Miniest Cafe</h2>
-                        <p>달콤한 아메리카노가 있는 곳</p>
-                       
-                    </div>
-                
-                </div>
-                
-                
+    
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
         </div>
-        
-        <!-- <div class="mobile-swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide sec01-bg01">
-                    <div class="content">
-                        <h2>세상에서 가장작은 카페</h2>
-                        <p>KANU</p>
-                        <a href="#" class="btn">Our Menu</a>
-                    </div>
-                </div>
 
-                <div class="swiper-slide sec01-bg02">
-                    <div class="content">
-                        <h2>세상에서 가장작은 카페</h2>
-                        <p>KANU</p>
-                        <a href="#" class="btn">Our Menu</a>
+        <div class="slide swiper-mobile">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="slide-img" src="assets/image/banner/bg1.jpg" alt="">
                     </div>
-                </div>
-
-                <div class="swiper-slide sec01-bg03">
-                    <div class="content">
-                        <h2>세상에서 가장작은 카페</h2>
-                        <p>KANU</p>
-                        <a href="#" class="btn">Our Menu</a>
+                    
+                    <div class="swiper-slide"> 
+                        <img class="slide-img" src="assets/image/banner/bg2.PNG" alt="">
                     </div>
+                    
+                    <div class="swiper-slide">
+                        <img class="slide-img" src="assets/image/banner/bg3-m.jpg" alt="">
+                    </div>
+                    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-                
-                
-            </div> -->
+            </div>    
+        </div>
     </section>
+    
     <section class="about p-100" id="about">
         <div class="row">
             <div class="col50">
@@ -181,15 +169,16 @@
             <h2 class="titleText">DONGSUH TV CF</h2>
             <p>동서식품을 대표하는 커피상품 광고입니다.</p> 
             <div class="content">
-                <div class="box">
+                <div class="box b-01">
                     <div class="imgBx">
                         <img src="assets/image/expert/img01.jpg" alt="">
+                        
                     </div>
                     <div class="text">
                         <h3>맥심아이스커피 광고</h3>
                     </div>
                 </div>
-                <div class="box">
+                <div class="box b-02">
                     <div class="imgBx">
                         <img src="assets/image/expert/img02.jpg" alt="">
                     </div>
@@ -197,7 +186,7 @@
                         <h3>달달한 맥심커피광고</h3>
                     </div>
                 </div>
-                <div class="box">
+                <div class="box b-03">
                     <div class="imgBx">
                         <img src="assets/image/expert/img03.jpg" alt="">
                     </div>
@@ -205,7 +194,7 @@
                         <h3>카누 아이스커피 광고</h3>
                     </div>
                 </div>
-                <div class="box">
+                <div class="box b-04">
                     <div class="imgBx">
                         <img src="assets/image/expert/img04.jpg" alt="">
                     </div>
@@ -272,12 +261,38 @@
             </div>
         </div>
     </section>
+
     <div class="copyrightText">
-        <p>Copyright 2020 <a href="#">Tutorials</a>. All Right ReservedS</p>
+        <p>WEBSITE<a href="#">KANU</a> http://www.maximkanu.co.kr/pc.asp</p>
     </div>
 
+    <div class="wrap">
+        <div class="bg">
+            <h1>클릭</h1>
+        </div>
+    </div>
     
+    <div class="modal-pop">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/d6yY1B-AXD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1>클릭하면 나올 화면입니다.</h1>
+        <p>이건 html 상관없이 어디에 넣어도 됩니다. 단 그냥맨밑에다가 다세요!</p>
+        <span class="cl">x</span>
+    </div>
+    
+    <!-- swiper -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    
+    <script>
+        $('.bg').click(function(){
+            $('.modal-pop').fadeIn();
+        });
+        $('.cl').click(function(){
+            $('.modal-pop').fadeOut();
+        });
+        
+    </script>
 
     <script type="text/javascript">
         window.addEventListener('scroll',function(){
@@ -312,6 +327,11 @@
           loop:true,
           effect:'fade',
         });
-      </script>
+    </script>
+
+    
+
+    
+      
 </body>
 </html>
