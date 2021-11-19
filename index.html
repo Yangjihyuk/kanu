@@ -20,7 +20,7 @@
             <li><a href="#banner" onclick="toggleMenu();">홈</a></li>
             <li><a href="#about" onclick="toggleMenu();">카누소개</a></li>
             <li><a href="#menu" onclick="toggleMenu();">제품안내</a></li>
-            <li><a href="#expert" onclick="toggleMenu();">TV CF</a></li>
+            <li><a href="#advertis" onclick="toggleMenu();">TV CF</a></li>
             <li><a href="#advertiss" onclick="toggleMenu();">Home</a></li>
             <li><a href="#contact" onclick="toggleMenu();">Home</a></li>
         </ul>
@@ -178,12 +178,12 @@
                         <h3>맥심아이스커피 광고</h3>
                     </div>
                 </div>
-                <div class="box b-02">
+                <div class="box b-02 ">
                     <div class="imgBx">
                         <img src="assets/image/expert/img02.jpg" alt="">
                     </div>
                     <div class="text">
-                        <h3>달달한 맥심커피광고</h3>
+                        <h3>맥심 슈프림골드 광고</h3>
                     </div>
                 </div>
                 <div class="box b-03">
@@ -204,7 +204,7 @@
                 </div>
             </div>
     </section>
-    <section class="testimonials  p-100" id="testimonials ">
+    <section class="limited  p-100" id="limited">
         <div class="title white">
             <h2 class="titleText">
                 LIMITED EDITION</h2>
@@ -265,73 +265,47 @@
     <div class="copyrightText">
         <p>WEBSITE<a href="#">KANU</a> http://www.maximkanu.co.kr/pc.asp</p>
     </div>
-
-    <div class="wrap">
-        <div class="bg">
-            <h1>클릭</h1>
+    
+    
+    <div class="modal">
+        <div class="modal-pop pop-01">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d6yY1B-AXD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1>클릭하면 나올 화면입니다.</h1>
+            <p>이건 html 상관없이 어디에 넣어도 됩니다. 단 그냥맨밑에다가 다세요!</p>
+            <span class="cl">x</span>
         </div>
     </div>
-    
-    <div class="modal-pop">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/d6yY1B-AXD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h1>클릭하면 나올 화면입니다.</h1>
-        <p>이건 html 상관없이 어디에 넣어도 됩니다. 단 그냥맨밑에다가 다세요!</p>
-        <span class="cl">x</span>
+    <div class="modal">
+        <div class="modal-pop pop-02">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3dJg1hT9tg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1>클릭하면 나올 화면입니다.</h1>
+            <p>이건 html 상관없이 어디에 넣어도 됩니다. 단 그냥맨밑에다가 다세요!</p>
+            <span class="cl">x</span>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-pop pop-03">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3DJ10keJ7hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1>클릭하면 나올 화면입니다.</h1>
+            <p>이건 html 상관없이 어디에 넣어도 됩니다. 단 그냥맨밑에다가 다세요!</p>
+            <span class="cl">x</span>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-pop pop-04">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mZTafxQ8Oa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1>클릭하면 나올 화면입니다.</h1>
+            <p>이건 html 상관없이 어디에 넣어도 됩니다. 단 그냥맨밑에다가 다세요!</p>
+            <span class="cl">x</span>
+        </div>
     </div>
     
     <!-- swiper -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    
-    <script>
-        $('.bg').click(function(){
-            $('.modal-pop').fadeIn();
-        });
-        $('.cl').click(function(){
-            $('.modal-pop').fadeOut();
-        });
-        
-    </script>
-
-    <script type="text/javascript">
-        window.addEventListener('scroll',function(){
-            const header=document.querySelector('header');
-            header.classList.toggle("sticky",window.scrollY>0) 
-        });
-
-       function toggleMenu(){
-           const menuToggle=document.querySelector('.menuToggle');
-           const navigation=document.querySelector('.navigation')
-           menuToggle.classList.toggle('active');
-           navigation.classList.toggle('active');
-       }
-    </script>
-  
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-          spaceBetween: 30,
-          centeredSlides: true,
-          autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-          },
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-          loop:true,
-          effect:'fade',
-        });
-    </script>
-
-    
-
-    
+    <!-- main.js -->
+    <script src="assets/js/main.js"></script>
       
 </body>
 </html>
