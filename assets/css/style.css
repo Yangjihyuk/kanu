@@ -64,6 +64,7 @@ header .logo img{
 
 .sticky .navigation li a{
     color: #000;
+    font-family:'Noto Sans KR';
 }
 
 header .navigation{
@@ -78,6 +79,7 @@ header .navigation li a{
     text-decoration: none;
     color: #fff;
     font-weight: 300;
+    font-family:'Noto Sans KR';
 }
 header .navigation li a:hover{
     color: #DD0917;
